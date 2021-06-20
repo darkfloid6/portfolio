@@ -1,8 +1,49 @@
 @font-face {
-  font-family: ;
-  src: url();
+  font-family:"ViaodaLibre" ;
+  src: url("/Assets/Fonts/ViaodaLibre-Regular.ttf");
 }
 @font-face {
-  font-family: ;
-  src: url();
+  font-family:"PT Serif" ;
+  src: url("/Assets/Fonts/PTSerif-Italic.ttf");
+}
+@font-face {
+  font-family:"PT Serif Bold" ;
+  src: url("/Assets/Fonts/PTSerif-Bold.ttf");
+}
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+/**{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}**/
+/**:root{
+  background-color: #15E238;
+}**/
+body{
+  margin: 1px;
+  background-color: #ccc;
+}
+div.wrapper{
+  /*background-color: #746D6D;*/
+  border-radius: 10px 14px;
+  width: 100%;
+  height: 100%;
+}
+.portfolio{
+  top: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "ViaodaLibre";
+}
+.portfolio span{
+  color: #F75A5A;
+}
+#name{
+  font-size: 20px;
+  font-variant: small-caps;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+input[type=submit]{
+  border-style: none;
 }
